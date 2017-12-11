@@ -4,16 +4,12 @@ require('../src/next-constellation');
 
 describe('next/constellation', function () {
 
-  it('nx.mix', function () {
-    var obj1 = {name: 'fei'};
-    var obj2 = {email: '1290657123@qq.com'};
+  it('02,25 is 双鱼', function () {
+    assert.equal( nx.constellation(2,25), '双鱼' );
+  });
 
-    var result = {};
-
-    nx.mix(result, obj1, obj2);
-
-    assert.equal(result.name, obj1.name);
-    assert.equal(result.email, obj2.email);
+  it('01,28 is 水瓶', function () {
+    assert.equal( nx.constellation(1,28), '水瓶' );
   });
 
 });
