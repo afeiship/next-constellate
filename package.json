@@ -1,8 +1,8 @@
 {
-  "name": "next-constellation",
+  "name": "next-constellate",
   "version": "0.0.0",
   "description": "Constellation for next.",
-  "homepage": "https://github.com/afeiship/next-constellation",
+  "homepage": "https://github.com/afeiship/next-constellate",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -10,7 +10,7 @@
   "scripts": {
     "build": "gulp"
   },
-  "main": "dist/next-constellation.js",
+  "main": "dist/next-constellate.js",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",

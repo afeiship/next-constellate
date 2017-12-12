@@ -1,4 +1,4 @@
-# next-constellation
+# next-constellate
 > Constellation for next.
 
 ## remark:
